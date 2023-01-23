@@ -38,6 +38,8 @@ It will also house the reconstructed results of the `variational-autoencoder`:
 1. `df_inputs.pt` - torch.Size([62891, 5000])
 2. `df_targets.pt`- torch.Size([62891])
 
+(Note: These four files are part of `.gitignore` because of their large size.)
+
 Much of the explanations are in `markdown` cells of each notebook, obtained from resource articles found in the Internet, valuable videos from Youtube, distilled to the interpretation of the author. This is to provide a detailed and comprehensive understanding of the topics.
 
 Take note that the author is _generally new_ with natural language processing and was also learning while writing the `notebooks`.
