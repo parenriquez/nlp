@@ -44,7 +44,7 @@ Take note that the author is _generally new_ with natural language processing an
 
 Pictures attached are from the word document `Feature Extraction Techniques.docx` which is also available with this repository.
 
-Experiments and Results can be found in `Experiment.docx`. This details the experimentation done on finding the best hyperparameters for model_0, although the techniques used are **non-exhaustive**. It also includes the results for `model_1` and 2 experiments on `model_2`.
+Experiments and Results can be found in `Experiment.docx`. This details the experimentation done on finding the best hyperparameters for `model_0`, although the techniques used are **non-exhaustive**. It also includes the results for `model_1` and two experiments on `model_2`.
 
 This repository serves as a partial requirement to a project administered by Mr. Raphael Alampay, but also as a valuable resource for the author and to the readers.
 
