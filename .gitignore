@@ -1,0 +1,31 @@
+# environment
+nlp-env
+env
+
+# pycache
+__pycache__
+
+# editors
+.vscode
+
+# checkpoints
+**/notebooks/.ipynb_checkpoints
+**/notebooks/**/.ipynb_checkpoints
+
+# Large files
+**/vectors/fasttext_910.*
+**/vectors/fasttext_tweets.sav
+
+**/vectors/keras_model_tweets.sav
+**/vectors/keras_model.sav
+
+**/vectors/word2vec_910.model
+**/vectors/word2vec_tweets.sav
+
+**/vectors/doc2vec_tweets.sav
+
+# Tensor Files
+X_test_vec.pt
+y_test.pt
+df_inputs.pt
+df_targets.pt
