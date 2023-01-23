@@ -13,7 +13,9 @@ Read (or run) the notebooks according to this order:
 4. document_embeddings
 5. contextual_embeddings
 6. evaluation-of-techniques
-7. tweets-ann-torch
+7. tweets-ann-torch_2
+8. tweets-ann-autoencoder
+9. tweets-ann-balanced
 
 Tokenized tweets and the target variable array are stored in `notebooks/csvs`.
 
