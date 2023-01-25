@@ -25,8 +25,20 @@ Torch Models will be saved in `notebooks/torch_models`:
 
 1. `model_0.pth` - contains the model trained and tested on the **validation set**
 2. `model_1.pth` - contains the model trained using the hyperparameters found from validation and tested on the **test set**
-3. `model_2.pth` - contains the model trained from an 80-20 split of the `~balanced` dataset and tested on the same **test set** used on `model_1`, and on its own test set
+3. `model_2.pth` - contains the model trained from an 80-20 split of the `balanced*` dataset and tested on the same **test set** used on `model_1`, and on its own test set
 4. `variational-autoencoder.pth` - contains the variational autoencoder which was trained on the `negative` class, to resample it and make it equal to the average of the population of the `neutral` and the `positive` class
+
+- The distribution of the dataset after resampling the `Negative` class:
+
+* 0 (Negative) – 33.33%
+* 1 (Neutral) – 35.39%
+* 2 (Positive) – 31.28%
+
+It is not perfectly balanced, but it has an improved distribution from the original dataset with a distribution of:
+
+- 0 (Negative) – 16.60%
+- 1 (Neutral) – 44.80%
+- 2 (Positive) – 39.60%
 
 `notebooks/tensors` folder will contain the testing dataset. (All of these are tensors):
 
