@@ -13,7 +13,7 @@ Read (or run) the notebooks according to this order:
 4. document_embeddings
 5. contextual_embeddings
 6. evaluation-of-techniques
-7. tweets-ann-torch_2
+7. tweets-ann
 8. tweets-ann-autoencoder
 9. tweets-ann-balanced200
 10. tweets-ann-balanced300
@@ -27,7 +27,7 @@ Torch Models will be saved in `notebooks/torch_models`:
 1. `model_0.pth` - contains the model trained and tested on the **validation set**
 2. `model_1.pth` - contains the model trained using the hyperparameters found from validation and tested on the **test set**
 3. `model_2.pth` - contains the model trained from a `~balanced` dataset and tested on the same **test set** used on `model_1`
-4. `model_3.pth` - same hyperparameters as `model_2`, but trained for 300 epochs
+4. `model_3.pth` - same hyperparameters as `model_2`, but trained for 300 epochs instead of 200
 5. `variational-autoencoder.pth` - contains the variational autoencoder which was trained on the `negative` class, to resample it and make it equal to the average of the population of the `neutral` and the `positive` class
 
 `notebooks/tensors` folder will contain the testing dataset. (All of these are tensors):
