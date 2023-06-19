@@ -60,6 +60,4 @@ Pictures attached are from the word document `Feature Extraction Techniques.docx
 
 Experiments and Results can be found in `Experiment.docx`. This details the experimentation done on finding the best hyperparameters for `model_0`, although the techniques used are **non-exhaustive**. It also includes the results for `model_1` and two experiments on `model_2`.
 
-This repository serves as a partial requirement to a project administered by Mr. Raphael Alampay, but also as a valuable resource for the author and to the readers.
-
 Thank you!
